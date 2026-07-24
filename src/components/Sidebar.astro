@@ -43,12 +43,12 @@ const { selectedItem } = Astro.props;
         <div>Home</div>
       </a>
       <a
-        href="/me/software-development"
+        href="/me/work-experience"
         class={`nav-link-container w-inline-block ${
-          selectedItem === 'software-development' ? 'w--current' : ''
+          selectedItem === 'work-experience' ? 'w--current' : ''
         }`}
         aria-current={
-          selectedItem === 'software-development' ? 'page' : undefined
+          selectedItem === 'work-experience' ? 'page' : undefined
         }
       >
         <img
@@ -57,12 +57,12 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>Software development</div>
+        <div>Work experience</div>
       </a>
       <a
-        href="/me/devops"
+        href="/me/blank"
         class={`nav-link-container w-inline-block ${
-          selectedItem === 'devops' ? 'w--current' : ''
+          selectedItem === 'blank' ? 'w--current' : ''
         }`}
       >
         <img
@@ -71,7 +71,7 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>DevOps</div>
+        <div>Blank</div>
       </a>
       <a
         href="/me/personal-projects"
