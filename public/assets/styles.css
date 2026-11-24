@@ -419,6 +419,13 @@ p {
   font-size: 16px;
 }
 
+.job-title {
+  color: #a8a8a8;
+  margin: -6px 0 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 .resouce-items {
   grid-column-gap: 64px;
   grid-row-gap: 64px;

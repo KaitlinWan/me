@@ -4,7 +4,8 @@ import Project from "../components/Project.astro";
 import Sidebar from "../components/Sidebar.astro";
 const projects = [
   {
-    title: "Project1",
+    title: "Skydance (prev. Paramount)",
+    jobTitle: "Product Manager",
     desc: [
       "Bullet1",
       "Bullet2",
@@ -13,7 +14,8 @@ const projects = [
     tech: ["Fun", "Fun","Fun"]
   },
   {
-    title: "Project2",
+    title: "Dentsu International (Merkle Inc.)",
+    jobTitle: "Job Title",
     desc: [
       "Bullet1",
       "Bullet2",
@@ -22,7 +24,8 @@ const projects = [
     tech: ["Fun", "Fun","Fun"]
   },
   {
-    title: "Project3",
+    title: "GE Vernova (General Electric)",
+    jobTitle: "Job Title",
     desc: [
       "Bullet1",
       "Bullet2",
@@ -55,6 +58,7 @@ const projects = [
                     {projects.map(project => (
                       <Project 
                         title={project.title} 
+                        jobTitle={project.jobTitle}
                         desc={project.desc}
                         tech={project.tech}
                       />
